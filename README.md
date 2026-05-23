@@ -1,12 +1,14 @@
 # The Rescue Boat & Other Counter-Narratives
 
-A trauma education and counter-narrative manuscript site exploring addiction, the nervous system, and survival protocols.
+A public education and counter-narrative manuscript site exploring trauma, addiction, nervous-system adaptation, shame, freeze responses, and survival patterns in plain language.
 
 ## Overview
 
-**The Rescue Boat** is a digital manuscript and educational platform designed to provide a "survival doctrine" for those navigating trauma, addiction, and the nervous system. Unlike traditional approaches that focus on compliance, this project offers translation — reframing trauma responses as biological survival protocols rather than character flaws.
+**The Rescue Boat** is a digital manuscript and educational platform designed to translate survival patterns that are often mislabeled as defiance, weakness, noncompliance, laziness, or character failure.
 
-The site is built as a high-performance, single-page application (SPA) optimized for reading and accessibility, serving as the canonical source for the manuscript content.
+Instead of forcing disclosure or diagnosis, this project offers language: a way to recognize how the nervous system, shame, avoidance, addiction, collapse, and survival behavior can operate under pressure.
+
+The site is built as a high-performance, single-page application (SPA) optimized for reading and accessibility. It serves as the public article and manuscript hub for the WRH counter-narrative work.
 
 ## Live Site
 
@@ -19,10 +21,26 @@ The manuscript is organized into four key sections:
 
 | Section | Title | Description |
 | :--- | :--- | :--- |
-| **Part I** | The Counter-Narratives | Twelve core articles challenging traditional narratives of shame and blame. |
-| **Part II** | Technical Appendix | Deep science, neurobiology, and research citations supporting the manuscript. |
-| **Part III** | Missing Pieces | Tools and reframes often overlooked by traditional recovery systems. |
-| **Part IV** | Resources | Practical protocols, the "26 Laws of Survival," and harm reduction notes. |
+| **Part I** | The Counter-Narratives | Core articles challenging shame-and-blame interpretations of trauma, addiction, freeze, and avoidance. |
+| **Part II** | Technical Appendix | Plain-language science, nervous-system concepts, and supporting references. |
+| **Part III** | Missing Pieces | Tools and reframes often overlooked by traditional recovery, legal, and support systems. |
+| **Part IV** | Resources | Practical protocols, the "26 Laws of Survival," and harm-reduction-oriented notes. |
+
+## Purpose & Audience
+
+This is a **non-clinical public education** site. It is intended for:
+
+- **Survivors & Peers:** To provide language for naming and understanding survival patterns.
+- **Families & Supporters:** To help reframe behavior without excusing harm or removing accountability.
+- **Peer Workers & Helpers:** To offer plain-language tools for recognizing freeze, shame, avoidance, and collapse.
+- **Legal and Reentry Support Staff:** To provide operational reframes for missed appointments, shutdown, and avoidant noncompliance patterns.
+- **Clinicians & Providers:** To offer plain-language translation tools that may support communication, while remaining outside clinical treatment.
+
+## Scope Boundary
+
+This project is not therapy, medical advice, legal advice, diagnosis, treatment, crisis care, or a substitute for licensed professional support. It is public-facing psychoeducation and lived-experience translation.
+
+If a reader is in immediate danger or crisis, they should contact local emergency services, trusted support, or a qualified crisis resource in their area.
 
 ## Development & Deployment
 
@@ -62,12 +80,5 @@ To run the project locally or build for production, ensure you have `pnpm` insta
 
 The site is deployed to GitHub Pages. The build output in `dist/public` is designed to be served from the `/ebook-manuscript/` base path. Routing for direct article links is handled via a custom `404.html` redirection script.
 
-## Purpose & Audience
-
-This is a **trauma education** site. It is intended for:
-- **Survivors & Peers:** To provide a map for naming and understanding their own wiring.
-- **Legal Support Staff:** To offer operational reframes for "noncompliance" in court and probation settings.
-- **Clinicians & Providers:** To help translate complex physiology into plain, actionable language.
-
 ---
-*This repository serves as the single source of truth for The Rescue Boat manuscript.*
+*This repository serves as the public article and manuscript hub for The Rescue Boat counter-narrative project.*
