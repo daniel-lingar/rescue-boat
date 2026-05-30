@@ -43,9 +43,9 @@ Unprocessed trauma shows up in the body: ulcers, migraines, sleep paralysis, nig
 - van der Kolk, *The Body Keeps the Score* (2014)
 - Levine, *Waking the Tiger* (1997)
 
-### 5. The 23 Names – Pattern Recognition, Not Paranoia
+### 5. At Least 25 Names – Pattern Recognition, Not Paranoia
 
-When you lose twenty-three people you love, your brain learns a pattern: tragedy is the rule, not the exception. Expecting the worst is not "catastrophizing" – it's data-driven prediction. The goal is to honor the data without being destroyed by it.
+When you lose at least twenty-five people you love, your brain learns a pattern: tragedy is the rule, not the exception. Expecting the worst is not "catastrophizing" – it's data-driven prediction. The goal is to honor the data without being destroyed by it.
 
 **Sources:**
 - Bonanno, *The Other Side of Sadness* (2009)
