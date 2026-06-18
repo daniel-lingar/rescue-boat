@@ -10,7 +10,7 @@ export function useMarkdown(filename: string) {
       try {
         setLoading(true);
         // Use absolute path from base for GitHub Pages sub-directory hosting
-        const response = await fetch(`/ebook-manuscript/content/${filename}`);
+        const response = await fetch(`/rescue-boat/content/${filename}`);
         if (!response.ok) {
           throw new Error(`Failed to load ${filename}`);
         }

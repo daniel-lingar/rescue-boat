@@ -4,8 +4,8 @@
 **Version:** 1.0.0  
 **Locked:** 2026-06-18  
 **Owner:** Daniel Bret Lingar / Capitol Contracts LLC  
-**Repository:** https://github.com/daniel-lingar/ebook-manuscript  
-**Live site:** https://daniel-lingar.github.io/ebook-manuscript/
+**Repository:** https://github.com/daniel-lingar/rescue-boat  
+**Live site:** https://daniel-lingar.github.io/rescue-boat/
 
 ---
 

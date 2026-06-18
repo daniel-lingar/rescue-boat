@@ -24,10 +24,10 @@ The site is built as a high-performance, single-page application (SPA) optimized
 ## Live Site
 
 The manuscript is live and can be accessed at:
-[https://daniel-lingar.github.io/ebook-manuscript/](https://daniel-lingar.github.io/ebook-manuscript/)
+[https://daniel-lingar.github.io/rescue-boat/](https://daniel-lingar.github.io/rescue-boat/)
 
 Source repository:
-[https://github.com/daniel-lingar/ebook-manuscript](https://github.com/daniel-lingar/ebook-manuscript)
+[https://github.com/daniel-lingar/rescue-boat](https://github.com/daniel-lingar/rescue-boat)
 
 ## Content Structure
 
@@ -92,7 +92,7 @@ To run the project locally or build for production, ensure you have `pnpm` insta
 
 ### Deployment
 
-The site is deployed to GitHub Pages. The build output in `dist/public` is designed to be served from the `/ebook-manuscript/` base path. Routing for direct article links is handled via a custom `404.html` redirection script.
+The site is deployed to GitHub Pages. The build output in `dist/public` is designed to be served from the `/rescue-boat/` base path. Routing for direct article links is handled via a custom `404.html` redirection script.
 
 ---
 *This repository serves as the public article and manuscript hub for The Rescue Boat counter-narrative project.*

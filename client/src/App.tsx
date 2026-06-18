@@ -10,7 +10,7 @@ import StoicBarrier from "./components/StoicBarrier";
 
 function Router() {
   return (
-    <WouterRouter base="/ebook-manuscript">
+    <WouterRouter base="/rescue-boat">
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/article/:slug" component={ArticleWrapper} />

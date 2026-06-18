@@ -22,7 +22,7 @@ export default function Home() {
         {/* Background Image Overlay */}
         <div className="absolute inset-0 z-0 opacity-40">
           <img 
-            src="/ebook-manuscript/assets/cover.png" 
+            src="/rescue-boat/assets/cover.png" 
             alt="" 
             className="w-full h-full object-cover object-center filter blur-sm"
           />
@@ -33,7 +33,7 @@ export default function Home() {
             {/* Main Cover Image */}
             <div className="w-full max-w-[320px] shadow-2xl border-4 border-accent/30 rounded-lg overflow-hidden transform md:-rotate-2 transition-transform hover:rotate-0 duration-500">
               <img 
-                src="/ebook-manuscript/assets/cover.png" 
+                src="/rescue-boat/assets/cover.png" 
                 alt="The Rescue Boat Book Cover" 
                 className="w-full h-auto"
               />
