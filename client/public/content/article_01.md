@@ -57,3 +57,17 @@ The rescue boat was never the enemy. Even now, I still fight the urge to reach f
 So here's the one that helps me. When the urge hits – the pull toward the thing that quiets the noise – I don't fight it with shame. I name it, soft, so only I can hear: "That's my nervous system asking for peace. I can find other tools." You can borrow my words if you need them.
 
 The storm wired us for danger. The fire taught us to burn. But the boat? It was never the enemy. It was proof I still wanted to live.
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-01 Glass Box · CS-05 Hydrocodone Dishes · CS-11 I Chose Not to Die
+Teaches: Substances as rescue boat — survival regulation, not moral failure
+Memoir: Part I Ch 1–3 · Part II Ch 4
+WRH: S09 The Loop
+26 Laws: #3 Dangerous shelter · #14 Gas pedal sticks
+Field line: "I wasn't choosing drugs over my family. I was choosing not to die."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: It hurt them. It hurt me. I own what the boat cost.
+-->

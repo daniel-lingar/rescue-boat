@@ -2,6 +2,17 @@
 
 A public education and counter-narrative manuscript site exploring trauma, addiction, nervous-system adaptation, shame, freeze responses, and survival patterns in plain language.
 
+## Canonical Lock (v1.0.0)
+
+The **10-article public edition** is locked as of **2026-06-18**. See [`CANONICAL_LOCK.md`](CANONICAL_LOCK.md) and [`LOCK_CHECKSUMS.txt`](LOCK_CHECKSUMS.txt).
+
+| Rule | Detail |
+| :--- | :--- |
+| **Canonical source** | Edit `content/` first, then sync to `client/src/content/` and `client/public/content/` |
+| **Edition scope** | 10 counter-narratives + appendix, missing pieces, and resources |
+| **Out of scope** | `book/` long-form manuscript (separate work in progress) |
+| **Unlock** | Follow the unlock policy in `CANONICAL_LOCK.md` |
+
 ## Overview
 
 **The Rescue Boat** is a digital manuscript and educational platform designed to translate survival patterns that are often mislabeled as defiance, weakness, noncompliance, laziness, or character failure.
@@ -13,7 +24,10 @@ The site is built as a high-performance, single-page application (SPA) optimized
 ## Live Site
 
 The manuscript is live and can be accessed at:
-[https://mave9055.github.io/ebook-manuscript/](https://mave9055.github.io/ebook-manuscript/)
+[https://daniel-lingar.github.io/ebook-manuscript/](https://daniel-lingar.github.io/ebook-manuscript/)
+
+Source repository:
+[https://github.com/daniel-lingar/ebook-manuscript](https://github.com/daniel-lingar/ebook-manuscript)
 
 ## Content Structure
 
@@ -21,7 +35,7 @@ The manuscript is organized into four key sections:
 
 | Section | Title | Description |
 | :--- | :--- | :--- |
-| **Part I** | The Counter-Narratives | Core articles challenging shame-and-blame interpretations of trauma, addiction, freeze, and avoidance. |
+| **Part I** | The Counter-Narratives | Ten core articles challenging shame-and-blame interpretations of trauma, addiction, freeze, and avoidance. |
 | **Part II** | Technical Appendix | Plain-language science, nervous-system concepts, and supporting references. |
 | **Part III** | Missing Pieces | Tools and reframes often overlooked by traditional recovery, legal, and support systems. |
 | **Part IV** | Resources | Practical protocols, the "26 Laws of Survival," and harm-reduction-oriented notes. |

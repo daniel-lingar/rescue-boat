@@ -1,46 +1,51 @@
-# ARTICLE 6: I GOT CLEAN. I DIDN'T GET FREE.
-**Sobriety is the starting gate, not the finish line.**
+# ARTICLE 6: NORMAL IS THE MOST ADDICTIVE STATE
 
-You hear it all the time. "He finally got clean." "She's sober now." As if putting down the pipe or the pill is the finish line. As if the moment the substance leaves your body, you cross into the land of the healed.
+> Addicts chase normal, not highs.
 
-I've been clean. More than once. I've sat in rehab rooms, attended meetings, flushed pills, sworn oaths to myself and my kids that I was done. And I meant it. Every time. But here's what nobody told me: getting clean is not the same as getting free.
+When people think of addiction, they think of a chase. The addict is always looking for a bigger high, a stronger rush, a more intense escape. That's the story. That's the movie. That's the cautionary tale. But that's not my story. I wasn't chasing euphoria. I was chasing normal.
 
-You can stop using and still be trapped. The alarm that drove you to the substance doesn't magically shut off when you put down the bottle. The nervous system that learned danger as its baseline doesn't reset just because you're sober. I got clean. But I didn't get free. And that nearly killed me.
+The first time I took a hydrocodone, I didn't feel high. I didn't feel numb. I felt normal. My heart stopped racing. My jaw unclenched. The constant static in my head – the buzzing, the scanning, the dread – it just… quieted. For the first time in my life, I could breathe. That feeling – normal – was more addictive than any high I ever chased.
 
-**The Myth of Sobriety as a Finish Line**
+## The Baseline Nobody Talks About
 
-Society treats addiction as the problem and sobriety as the solution. "Just stop using, and everything will get better." It's a comforting story. It's also dangerously wrong. For people whose addiction was never about getting high but about turning down the volume on a blaring nervous system, stopping the substance is just the beginning. It removes the crutch. It doesn't heal the limp.
+Most people don't know what it's like to have a nervous system that treats safety as a threat. They don't wake up already triggered. They don't scan every room for exits. They don't feel a sense of dread when nothing is wrong. They have a baseline of calm. Their alarm only goes off when there's actually danger.
 
-Research on addiction asks not *why the addiction* but *why the pain*. Remove the substance, and the pain is still there. The underlying wiring is still there. I learned this the hard way. I kicked opiates. Then I found meth. I stopped meth. Then I found work. The substance changed. The cage didn't.
+I never had that. My baseline was panic. The NICU wired me for hyperarousal. The violence at six taught me that stillness equals survival. By the time I was a teenager, my nervous system was in a constant state of high alert. Fluorescent lights felt like interrogation. Crowds felt like ambushes. Silence felt like the calm before a storm.
 
-**From Pills to Meth to Work — The Addiction That Never Left**
+Normal, for me, was a war zone.
 
-In North Dakota, I threw myself into sixteen-hour shifts at a truck stop. I worked like five people. My coworkers called me a miracle. My boss gave me raises. From the outside, it looked like progress. I had stopped using. I was a functioning member of society.
+So when I found a pill that turned the volume down – that made me feel what other people probably felt every day – it wasn't about getting high. It was about finally, briefly, being able to exist without the alarm blaring. The experts call this self-medication. They've shown that addiction is not a choice but a desperate attempt to solve the problem of unbearable pain. For me, the unbearable pain wasn't just emotional. It was physiological. It was a nervous system that never learned what safe felt like.
 
-But I wasn't free. I had just swapped one addiction for another. What people called "getting my life together" was really obsession dressed up as discipline. The work was a new pipe. Cleaner. Legal. Praised. But it served the same function: keeping me so busy I didn't have to feel the alarm. The grief. The shame. The black hole.
+## The Longing for Quiet
 
-This pattern has a name — addiction transfer. When the original substance is removed, the brain seeks other sources of relief. Work, exercise, gambling, even relationships can become the new delivery system. I didn't get free. I just changed the pipe.
+I've described it before. At seventeen, a migraine knocked me flat. My mother handed me a pill. Thirty minutes later, I was at the sink scrubbing dishes like I was reborn. "What is this?" I asked. "Kills pain. Feels good," she said. I'd never touched a dirty plate in my life. But suddenly I was washing dishes with a smile. Not because I was high. Because the noise in my head had stopped. The constant, grinding, exhausting noise of hypervigilance – the scanning, the bracing, the waiting for the next bad thing – it just… went quiet.
 
-**The Nervous System Doesn't Know You're Sober**
+That's what I became addicted to. Not the rush. The quiet. Experts in the field have noted that addiction is often about relief – relief from pain, from stress, from the intolerable state of being. For trauma survivors, that intolerable state is the baseline. The substance doesn't create a high. It creates a temporary normal. And when you've never known normal, that feeling is more valuable than gold.
 
-The substance was never the disease. It was a symptom. A crude, dangerous, desperate attempt to regulate a nervous system that never learned what safety felt like. My baseline was hyperarousal. Heart racing. Jaw clenching. Scanning for threat. The pills and meth turned down the volume. They didn't fix the wiring. They just suppressed it.
+## The Trap of Chasing Normal
 
-Research is clear: sobriety alone doesn't rewire the brain. Only targeted repetition — regulation, connection, practiced safety — can do that. Stopping the substance is like taking your foot off the gas. The car might stop speeding. But if the steering is broken, you're still not going where you want to go.
+Here's the trap. The substance works. At first. It turns down the volume. It gives you a few hours of quiet. But then it wears off. The alarm comes back – louder than before. Not because the substance is evil, but because your nervous system has adapted. It's trying to compensate for the chemical interruption. It overshoots. Now you need more of the substance to get the same effect. And more. And more.
 
-**The Spiral of Relapse and Shame**
+That's not weakness. That's physiology. That's tolerance. But the shame narrative says: "See? You're out of control. You're chasing a high. You're an addict." No. I was chasing the feeling of being normal. And the closer I got, the further it slipped away. The research is clear on this: most people who use drugs do so to cope with distress, not to pursue pleasure. The majority of addiction is rooted in social and psychological suffering, not the pharmacology of the drug itself. In other words, it's not the substance that's the problem. It's the storm the person is trying to survive.
 
-Here's what happened every time I got clean without getting free. I would stop using. The alarm would come back louder than ever. I'd be raw, irritable, sleepless, panicked. I'd white-knuckle it for days or weeks. Then something would trigger me — a memory, a conflict, a deadline — and I'd freeze. Then the shame: *See? You're not really better. You're still broken. You might as well use.*
+## The Crash After the Quiet
 
-That's the trap. Relapse isn't a failure of will. It's what happens when you take away the only tool the nervous system knows without giving it another one. Studies on relapse prevention are consistent on this: recovery requires not just abstinence but the development of alternative ways to regulate. In other words: you need new tools, or you'll go back to the old ones.
+When the substance stopped working – when tolerance made the quiet impossible to find – I didn't switch to harder drugs to get higher. I switched to stay afloat. Meth kept me upright when grief would have put me on the floor. It made me functional long enough to pretend I was okay. But pretending isn't living. And the crash always came.
 
-**What Freedom Actually Looks Like**
+The crash was worse than the original pain. Because now, on top of the alarm, there was shame. You needed this. You're weak. You can't handle life like a normal person. And the worst part? The shame was right about one thing. I couldn't handle life like a normal person. Because I wasn't a normal person. I was a person with a nervous system that had been wired for war before I had words for it. Normal was never available to me. I was just trying to fake it.
 
-I'm not healed. I'm aligned. And alignment is enough to keep walking. Freedom didn't come when I stopped using. It came when I stopped asking the wrong question. For years I asked: *Why am I so fucked up?* That question is shame-based. It assumes brokenness.
+## What I Needed Wasn't a High – It Was a New Baseline
 
-Then someone who'd been through the same wiring asked me: *What happened to you?* I started asking: *How did I survive this wiring long enough to still be here?* That question changed everything.
+I didn't need more willpower. I needed a nervous system that didn't treat Tuesday like a threat. I didn't need to be told to just stop. I needed to be shown how to regulate. The body keeps the score, the experts say. My body's score was set to maximum volume. The substance turned it down artificially. True healing wasn't about finding a better volume dial. It was about rewriting the score.
 
-Freedom isn't about never using again. It's about having other tools. It's about the alarm being loud, but knowing how to breathe through it. It's about freezing in a parking lot, but having a phrase that brings you back. I still fight the urge to reach for something when the alarm blares. Some days I win. Some days I don't. But I don't call myself a failure anymore. I call myself a machine that's still learning new code.
+That's what the WRH curriculum teaches. Not how to abstain. How to regulate. How to find safety in your own skin. How to build a baseline that doesn't require a chemical crutch. I'm not there yet. I'm aligned, not healed. But I've stopped chasing normal through a pipe. Now I'm chasing it through breath, through grounding, through understanding. It's slower. It's harder. But it's real.
 
-When the old pull comes — the urge to use, to work myself to exhaustion, to disappear into anything that quiets the noise — I put my hand on my chest and say it soft: *I got clean. Now I'm learning to get free. This urge isn't weakness. It's an old program running. I can write new code.* You can borrow my words if you need them.
+I still catch myself longing for the quiet sometimes. Old habit. When it hits – the pull toward the thing that used to turn down the volume – I don't shame myself anymore. I put my hand on my chest and whisper: "I'm not chasing a high. I'm chasing normal. That's not weakness. That's a nervous system asking for peace." You can borrow my words if you need them.
 
-The storm wired us for danger. I got clean. But getting free? That's a slower fire.
+The storm wired us for danger. I wasn't chasing a high – I was chasing normal. And normal was a foreign country.
+
+---
+
+**Missing pieces in this article:**
+* #6 (Recognition of a Different Baseline)
+* #1 (The "Why" Behind the Addiction)

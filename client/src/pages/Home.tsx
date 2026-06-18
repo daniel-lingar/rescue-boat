@@ -48,7 +48,7 @@ export default function Home() {
               </h2>
               <div className="w-24 h-1 bg-accent mb-8 mx-auto md:mx-0"></div>
               <p className="text-xl text-primary-foreground/90 font-serif leading-relaxed mb-6">
-                Twelve articles on trauma, addiction, and the nervous system
+                Ten articles on trauma, addiction, and the nervous system
               </p>
               <p className="text-base text-primary-foreground/80 font-serif max-w-xl">
                 This is a survival doctrine. It does not offer comfort. It offers translation.
@@ -101,13 +101,13 @@ export default function Home() {
           
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             <button 
-              onClick={() => setLocation('/article/the-shakes-are-the-alarm-waking-up')}
+              onClick={() => setLocation('/article/translation-between-the-system-and-trauma')}
               className="p-6 bg-card border border-border rounded-lg hover:border-accent/50 transition-all text-left group"
             >
               <h3 className="font-bold mb-2 group-hover:text-accent transition-colors">Locked or Shaking?</h3>
-              <p className="text-xs text-muted-foreground mb-4">Use the whispers. Do not analyze. Just regulate.</p>
+              <p className="text-xs text-muted-foreground mb-4">Freeze, withdrawal, punishment — translation for both sides.</p>
               <div className="flex items-center text-xs font-bold text-accent uppercase tracking-widest">
-                Go to Regulation <ArrowRight className="ml-2 w-3 h-3" />
+                Go to Translation <ArrowRight className="ml-2 w-3 h-3" />
               </div>
             </button>
 
@@ -134,7 +134,7 @@ export default function Home() {
             </button>
 
             <button 
-              onClick={() => setLocation('/article/they-called-it-noncompliance')}
+              onClick={() => setLocation('/article/translation-between-the-system-and-trauma')}
               className="p-6 bg-card border border-border rounded-lg hover:border-accent/50 transition-all text-left group"
             >
               <h3 className="font-bold mb-2 group-hover:text-accent transition-colors">Work in the System?</h3>
