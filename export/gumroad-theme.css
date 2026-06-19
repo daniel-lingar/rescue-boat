@@ -3,8 +3,8 @@
   --bg: #05040a;
   --bg-panel: #11101a;
   --bg-elevated: #1a1726;
-  --text: #f7f4ea;
-  --text-muted: #c9c1d8;
+  --text: #faf7ef;
+  --text-muted: #d4cce6;
   --gold: #d8b45f;
   --gold-soft: #f3dda0;
   --purple: #8f5cff;
@@ -95,7 +95,7 @@ body {
 }
 
 .cover .edition {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
   padding: 0.65rem 1rem;
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -106,10 +106,91 @@ body {
   text-transform: uppercase;
 }
 
+.cover-metaphor {
+  max-width: 30rem;
+  margin: 1.5rem 0 0;
+  padding: 1rem 1.15rem;
+  border-left: 3px solid var(--purple);
+  background: rgba(143, 92, 255, 0.12);
+  border-radius: 0 10px 10px 0;
+  text-align: left;
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.cover-metaphor strong {
+  color: var(--gold-soft);
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 /* Front matter */
-.front-matter {
+.front-matter,
+.how-to-use {
   page-break-after: always;
   padding-top: 0.5rem;
+}
+
+.how-to-use h2 {
+  color: var(--gold);
+  font-size: 1.35rem;
+  margin-top: 0;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.85rem;
+  margin: 1rem 0;
+}
+
+.audience-card {
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+
+.audience-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.92rem;
+  color: var(--gold);
+}
+
+.audience-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.metaphor-box,
+.bridge-page blockquote {
+  margin: 1rem 0;
+  padding: 0.9rem 1rem;
+  border-left: 3px solid var(--purple);
+  background: rgba(143, 92, 255, 0.1);
+  color: var(--text-muted);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+}
+
+.bridge-page {
+  page-break-before: always;
+  page-break-after: always;
+  padding-top: 0.5rem;
+}
+
+.bridge-page h2 {
+  color: var(--gold);
+  margin-top: 0;
+}
+
+.bridge-page p {
+  color: var(--text-muted);
 }
 
 .front-matter h2 {

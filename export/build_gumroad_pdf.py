@@ -19,10 +19,30 @@ OUT_DIR = Path(
     r"C:\Users\linga\Downloads\Books-Organized\10-Trauma-CPTSD-Content"
 )
 OUT_HTML = EXPORT / "gumroad-preview.html"
-OUT_PDF = OUT_DIR / "rescue-boat-gumroad-v1.0.0.pdf"
+OUT_PDF = OUT_DIR / "rescue-boat-gumroad-v1.0.1.pdf"
 
-EDITION = "v1.0.0"
+GUMROAD_EDITION = "v1.0.1"
+SOURCE_LOCK = "v1.0.0"
 LOCK_DATE = "2026-06-18"
+
+PART_BRIDGE_HTML = {
+    "Part II — Technical Appendix": """
+<section class="bridge-page">
+  <h2>Before the Appendix</h2>
+  <p>Part I gave you the counter-narratives — language for naming survival patterns without shame.</p>
+  <p>The following sections contain additional tools and language for supporters and systems: science you can cite, reframes systems skip, and protocols you can hand to a peer worker, family member, or court support staff without forcing anyone to disclose trauma.</p>
+  <div class="metaphor-box">The boat was never the enemy. Parts II–IV help you see the storm, name the alarm, and offer other vessels — not by shaming the old one, but by translating what the nervous system is actually doing.</div>
+</section>
+""",
+    "Part IV — Resources": """
+<section class="bridge-page">
+  <h2>For Supporters and Systems</h2>
+  <p>These resources are operational. They are meant to be used in parking lots, court hallways, supervision meetings, and kitchen tables — anywhere someone is being read as defiant when they are actually frozen.</p>
+  <div class="metaphor-box">When someone freezes or reaches for their old boat, they are not choosing chaos — they are using the only vessel they were given when the alarm wouldn't turn off. Your job is not to sink the boat. It is to help them find other tools while the storm is still loud.</div>
+  <p>Start with the freeze protocol if you work in legal or reentry contexts. Use the 26 Laws when you need plain-language pattern recognition. The harm-reduction and co-regulation notes are for anyone supporting someone still in the water.</p>
+</section>
+""",
+}
 
 STRUCTURE = [
     ("Part I — Counter-Narratives", [
@@ -116,6 +136,9 @@ def build_html() -> str:
             )
 
             is_part_open = idx == 0
+            if is_part_open and part_name in PART_BRIDGE_HTML:
+                chapters.append(PART_BRIDGE_HTML[part_name])
+
             part_class = "part-break" if is_part_open and part_name != "About" else ""
             part_label = (
                 f'<div class="part-label">{part_name}</div>' if is_part_open else ""
@@ -153,9 +176,13 @@ def build_html() -> str:
   <section class="cover">
     {cover_img}
     <h1>The Rescue Boat<br>&amp; Other Counter-Narratives</h1>
-    <p class="subtitle">Plain-language counter-narratives on trauma, addiction, shame, freeze, and survival — for peers, families, helpers, and systems that need better translation.</p>
+    <p class="subtitle">When the alarm won't shut off, you reach for the nearest thing that keeps you afloat. This book names that pattern — and gives you language that doesn't require you to bleed for it.</p>
+    <div class="cover-metaphor">
+      <strong>The core metaphor</strong>
+      The rescue boat is not the enemy. Addiction, freeze, avoidance, and shutdown are often survival responses — clumsy vessels launched in storms nobody asked about. This edition teaches the language. You decide what you share.
+    </div>
     <p class="meta">Daniel Bret Lingar · Capitol Contracts LLC<br>daniel-lingar.github.io/rescue-boat</p>
-    <div class="edition">Canonical Edition {EDITION} · Locked {LOCK_DATE}</div>
+    <div class="edition">Gumroad Edition {GUMROAD_EDITION} · Source lock {SOURCE_LOCK} ({LOCK_DATE})</div>
   </section>
 
   <section class="front-matter">
@@ -163,14 +190,29 @@ def build_html() -> str:
     <div class="scope-box">
       <p><strong>Non-clinical public education.</strong> This manuscript is psychoeducation and lived-experience translation. It is <strong>not</strong> therapy, medical advice, legal advice, diagnosis, treatment, crisis care, or a substitute for licensed professional support.</p>
       <p>If you or someone you support is in immediate danger, contact local emergency services or a qualified crisis resource in your area.</p>
-      <p><strong>Audience:</strong> survivors and peers, families and supporters, peer workers, legal and reentry support staff, and clinicians who want plain-language translation tools — without forcing disclosure or replacing clinical care.</p>
+      <p><strong>This is not the full memoir.</strong> It is a focused counter-narrative edition — ten articles plus tools — drawn from lived experience without requiring disclosure.</p>
     </div>
-    <h2>How to Read This Edition</h2>
-    <p><strong>Part I</strong> delivers ten counter-narratives that challenge shame-and-blame interpretations of trauma, addiction, freeze, and avoidance.</p>
-    <p><strong>Part II</strong> provides supporting science and citations in plain language.</p>
-    <p><strong>Part III</strong> names tools and reframes systems often overlook.</p>
-    <p><strong>Part IV</strong> offers practical protocols and heuristic resources.</p>
-    <p style="color: var(--gold-soft); font-style: italic; margin-top: 1.5rem;">I already paid the tuition. You get the language.</p>
+    <div class="metaphor-box">You don't have to explain your whole storm to use this language. The boat is proof someone wanted to live. The work is finding other tools while the alarm is still loud.</div>
+  </section>
+
+  <section class="how-to-use">
+    <h2>How to Use This Book</h2>
+    <p>This edition serves two audiences at once. You do not have to read it in order — but if you are not sure where to start, use the path that fits you.</p>
+    <div class="audience-grid">
+      <div class="audience-card">
+        <h3>If you are a survivor or peer</h3>
+        <p>Start with <strong>Part I</strong>, especially Article 1 (<em>The Rescue Boat</em>). Read for recognition, not performance. Highlight what names your wiring. Skip what does not fit. Return to Article 10 when setbacks make you think you are back at zero.</p>
+      </div>
+      <div class="audience-card">
+        <h3>If you support or work in systems</h3>
+        <p>Read Article 5 (<em>Translation Between the System and Trauma</em>), then jump to <strong>Part IV</strong> resources. Use the freeze protocol and 26 Laws as translation tools — not excuses, not diagnoses. Part II appendix is there when you need citations.</p>
+      </div>
+    </div>
+    <p><strong>Part I</strong> — Ten counter-narratives (core value)</p>
+    <p><strong>Part II</strong> — Technical appendix (plain-language science)</p>
+    <p><strong>Part III</strong> — Missing pieces (what systems leave out)</p>
+    <p><strong>Part IV</strong> — Practical resources (protocols and heuristics)</p>
+    <p style="color: var(--gold-soft); font-style: italic; margin-top: 1.25rem;">I already paid the tuition. You get the language.</p>
   </section>
 
   <section class="toc">
@@ -182,10 +224,10 @@ def build_html() -> str:
 
   <section class="back-matter">
     <h2>Edition &amp; Rights</h2>
-    <p>Generated from the locked canonical source at <strong>github.com/daniel-lingar/rescue-boat</strong> ({EDITION}, {LOCK_DATE}).</p>
+    <p>Generated from the locked canonical source at <strong>github.com/daniel-lingar/rescue-boat</strong> (source {SOURCE_LOCK}, {LOCK_DATE}; Gumroad layout {GUMROAD_EDITION}).</p>
     <p>© Daniel Bret Lingar / Capitol Contracts LLC. Educational peer resource. Not therapy. No disclosure required.</p>
     <p>Contact: capitolcontracts@outlook.com</p>
-    <div class="footer-line">The Rescue Boat &amp; Other Counter-Narratives · Gumroad Digital Edition {EDITION}</div>
+    <div class="footer-line">The Rescue Boat &amp; Other Counter-Narratives · Gumroad Digital Edition {GUMROAD_EDITION}</div>
   </section>
 </body>
 </html>
