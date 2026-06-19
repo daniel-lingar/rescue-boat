@@ -36,3 +36,4 @@ yarn-error.log*
 
 # Project specific
 attached_assets/
+export/gumroad-preview.html

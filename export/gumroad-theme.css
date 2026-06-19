@@ -1,0 +1,323 @@
+/* Rescue Boat — Gumroad PDF theme (digital edition) */
+:root {
+  --bg: #05040a;
+  --bg-panel: #11101a;
+  --bg-elevated: #1a1726;
+  --text: #f7f4ea;
+  --text-muted: #c9c1d8;
+  --gold: #d8b45f;
+  --gold-soft: #f3dda0;
+  --purple: #8f5cff;
+  --purple-soft: #b794ff;
+  --line: rgba(255, 255, 255, 0.13);
+}
+
+@page {
+  size: letter;
+  margin: 0.72in 0.8in;
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 11.2pt;
+  line-height: 1.62;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* Cover */
+.cover {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  page-break-after: always;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(143, 92, 255, 0.22), transparent 32%),
+    radial-gradient(circle at 88% 12%, rgba(216, 180, 95, 0.16), transparent 30%),
+    var(--bg);
+}
+
+.cover-mark {
+  width: 72px;
+  height: 72px;
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-weight: 900;
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.5rem;
+}
+
+.cover img {
+  max-width: 220px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  margin-bottom: 1.5rem;
+}
+
+.cover h1 {
+  font-size: 2.35rem;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  margin: 0 0 0.6rem;
+  color: var(--text);
+}
+
+.cover .subtitle {
+  font-size: 1.15rem;
+  color: var(--gold-soft);
+  margin: 0 0 1.5rem;
+  max-width: 28rem;
+}
+
+.cover .meta {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.cover .edition {
+  margin-top: 2rem;
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: var(--purple-soft);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Front matter */
+.front-matter {
+  page-break-after: always;
+  padding-top: 0.5rem;
+}
+
+.front-matter h2 {
+  color: var(--gold);
+  font-size: 1.35rem;
+  margin-top: 0;
+  letter-spacing: -0.02em;
+}
+
+.scope-box {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(17, 16, 26, 0.96), rgba(10, 8, 18, 0.96));
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+  margin: 1rem 0;
+}
+
+.scope-box strong {
+  color: var(--gold);
+}
+
+.toc {
+  page-break-after: always;
+}
+
+.toc h2 {
+  color: var(--gold);
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.toc-part {
+  margin: 1.2rem 0 0.5rem;
+  color: var(--purple-soft);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.toc ol {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.toc li {
+  margin: 0.35rem 0;
+  color: var(--text-muted);
+}
+
+.toc li span {
+  color: var(--text);
+}
+
+/* Chapters */
+.part-break {
+  page-break-before: always;
+  padding-top: 2rem;
+}
+
+.part-label {
+  color: var(--purple-soft);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.chapter {
+  page-break-before: always;
+  padding-top: 0.25rem;
+}
+
+.chapter:first-of-type {
+  page-break-before: auto;
+}
+
+.article-num {
+  color: var(--gold);
+  font-size: 0.78rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.chapter h1 {
+  font-size: 1.75rem;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.35rem;
+  color: var(--text);
+}
+
+.chapter .tagline {
+  color: var(--gold-soft);
+  font-size: 1.05rem;
+  font-style: italic;
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.chapter-body h2 {
+  color: var(--gold);
+  font-size: 1.15rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.chapter-body h3 {
+  color: var(--purple-soft);
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+
+.chapter-body p {
+  margin: 0.65rem 0;
+  color: var(--text);
+}
+
+.chapter-body blockquote {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid var(--purple);
+  background: rgba(143, 92, 255, 0.1);
+  color: var(--text-muted);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+}
+
+.chapter-body ul,
+.chapter-body ol {
+  color: var(--text-muted);
+  padding-left: 1.3rem;
+}
+
+.chapter-body li {
+  margin: 0.35rem 0;
+}
+
+.chapter-body strong {
+  color: var(--gold-soft);
+}
+
+.chapter-body em {
+  color: var(--text-muted);
+}
+
+.chapter-body hr {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 1.5rem 0;
+}
+
+.chapter-body a {
+  color: var(--purple-soft);
+  text-decoration: none;
+}
+
+.chapter-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+.chapter-body th {
+  color: var(--gold);
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  padding: 0.4rem 0.5rem;
+}
+
+.chapter-body td {
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--line);
+  padding: 0.4rem 0.5rem;
+  vertical-align: top;
+}
+
+.chapter-body code {
+  background: var(--bg-elevated);
+  color: var(--purple-soft);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Back matter */
+.back-matter {
+  page-break-before: always;
+  padding-top: 1rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.back-matter h2 {
+  color: var(--gold);
+}
+
+.footer-line {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-align: center;
+}
