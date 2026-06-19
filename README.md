@@ -13,6 +13,8 @@ The **10-article public edition** is locked as of **2026-06-19**. See [`CANONICA
 | **Out of scope** | `book/` long-form manuscript (separate work in progress) |
 | **Gumroad PDF** | `python export/build_gumroad_pdf.py` → `rescue-boat-gumroad-v1.1.1.pdf` |
 | **Verify lock** | `python export/verify_lock.py` |
+| **Case study footers** | `python export/case_study_footers.py --validate` |
+| **Ship console** | `pwsh scripts/ship-console.ps1` (verify → footers → sync → PDF → Gumroad checklist) |
 | **Unlock** | Follow the unlock policy in `CANONICAL_LOCK.md` |
 
 ## Overview
