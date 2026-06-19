@@ -4,6 +4,8 @@
 
 Traditional recovery and legal systems often overlook critical components of the survivor's experience. These "Missing Pieces" are the tools and reframes that bridge the gap between the system's expectations and the reality of a traumatized nervous system.
 
+> Part I named the patterns. Part III names what systems leave out — the manual, the baseline, the translation layer. Same storm. Different map.
+
 Throughout the articles in this book, we've identified where these pieces belong:
 
 1.  **The "Why" Behind the Addiction** (Articles 4, 5, 6)

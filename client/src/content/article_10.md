@@ -60,6 +60,14 @@ The storm wired us for danger. Healing isn't a straight line – it's a spiral. 
 
 ---
 
+## Before You Turn the Page
+
+The following sections contain additional tools and language for supporters and systems — science you can cite, reframes systems skip, and protocols you can hand to a peer worker, family member, or court support staff without forcing anyone to disclose trauma.
+
+> The boat was never the enemy. Parts II–IV help you see the storm, name the alarm, and offer other vessels — not by shaming the old one, but by translating what the nervous system is actually doing.
+
+---
+
 **Missing pieces in this article:**
 * #2 (A "Manual" for the Mechanic)
 * #3 (Tools to Replace the Substance)

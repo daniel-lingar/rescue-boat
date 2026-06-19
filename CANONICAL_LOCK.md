@@ -1,8 +1,8 @@
 # CANONICAL LOCK — The Rescue Boat (Public Edition)
 
 **Status:** LOCKED  
-**Version:** 1.0.0  
-**Locked:** 2026-06-18  
+**Version:** 1.1.0  
+**Locked:** 2026-06-19  
 **Owner:** Daniel Bret Lingar / Capitol Contracts LLC  
 **Repository:** https://github.com/daniel-lingar/rescue-boat  
 **Live site:** https://daniel-lingar.github.io/rescue-boat/
@@ -44,7 +44,8 @@ This lock applies to the **10-article public counter-narrative edition** plus su
 
 ## Supporting Content (locked with edition)
 
-- `appendix.md` — Part II Technical Appendix  
+- `how_to_use.md` — Front matter (dual-audience reading guide)  
+- `appendix.md` — Part II Technical Appendix
 - `missing_pieces_overview.md` — Part III  
 - `freeze_protocol.md`, `26_laws.md`, `harm_reduction.md`, `co_regulation_barriers.md`, `15_defaults.md` — Resources  
 - `about_author.md`

@@ -1,5 +1,5 @@
-# LOCK_CHECKSUMS.txt — The Rescue Boat v1.0.0
-# Generated: 2026-06-18
+# LOCK_CHECKSUMS.txt — The Rescue Boat v1.1.0
+# Generated: 2026-06-19
 # Algorithm: SHA-256
 # Scope: canonical content/ directory only
 #
@@ -18,8 +18,9 @@ ffebae62c463bc48a027e3492bc1e32bdf2192405f98138a6737257105ac7993  article_06.md
 fca5c8db5bebb62bff8f355da9896b618a46d8237046b60f66daecc2b69e7e20  article_07.md
 b5a106f040b5798ce0891369f1eecdb9687eb3ad3569d9578303ab82b6bf84ce  article_08.md
 14448de74694871daad4a8c14aa5cc220fae4ed101f7d8e92ea6268c103901e8  article_09.md
-a6209c170686c589567c177ea027e6ca4667cf8a8d694c8377f299a5055c56d0  article_10.md
+c5f22725f5a86bb250fa4b02634969eebad290da47a87116d7dc643b97810e05  article_10.md
 d45308ee8f2e7f8304ff7af3f3e2f457556e113b61397c3e76dca8f6b42e9eaf  co_regulation_barriers.md
-4444e1b7d63f65398a69ef7e640cd28c15e3448f39dc1078dd80fd412e983527  freeze_protocol.md
+7430038a5919bccc393fda2773368f90e91d914ec4b859b404748187684e55b0  freeze_protocol.md
 20beabc6740b8b72ec19edf70da7dc97db96c06cc2251824b353f822718daf95  harm_reduction.md
-799fa7437f8539e6aced093c85b0f354dda02f51b45398dce53e22a869ad8218  missing_pieces_overview.md
+fe7c945a162712d4a079aa74f076441cc2727edb9b84e596b94dbb6d2d313f18  how_to_use.md
+15a983ec5a397af3f0f7236f351ce0790f7e5a9018d3b02b8e17debdf292ec6f  missing_pieces_overview.md

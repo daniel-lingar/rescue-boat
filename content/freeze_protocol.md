@@ -5,6 +5,8 @@
 
 **The Science:** Under perceived threat, the brainstem overrides conscious control. The person is not choosing to disobey; their nervous system is protecting them by shutting down voluntary movement.
 
+> When someone freezes or reaches for their old boat, they are not choosing chaos — they are using the only vessel they were given when the alarm wouldn't turn off. Your job is not to sink the boat. It is to help them find other tools while the storm is still loud.
+
 **What works (instead of punishment):**
 
 | Instead of… | Try… |

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Build branded Gumroad PDF from locked canonical content/."""
+"""Build branded Gumroad PDF from locked canonical content/.
+
+Style: Register 4 wrapper + Register 2 body per MASTER_STYLE_GUIDE.md.
+See Lingar-Archive/00-Master-Style-Guide/REGISTER_MAP.md
+"""
 
 from __future__ import annotations
 
@@ -19,11 +23,11 @@ OUT_DIR = Path(
     r"C:\Users\linga\Downloads\Books-Organized\10-Trauma-CPTSD-Content"
 )
 OUT_HTML = EXPORT / "gumroad-preview.html"
-OUT_PDF = OUT_DIR / "rescue-boat-gumroad-v1.0.1.pdf"
+OUT_PDF = OUT_DIR / "rescue-boat-gumroad-v1.1.0.pdf"
 
-GUMROAD_EDITION = "v1.0.1"
-SOURCE_LOCK = "v1.0.0"
-LOCK_DATE = "2026-06-18"
+GUMROAD_EDITION = "v1.1.0"
+SOURCE_LOCK = "v1.1.0"
+LOCK_DATE = "2026-06-19"
 
 PART_BRIDGE_HTML = {
     "Part II — Technical Appendix": """
@@ -165,6 +169,10 @@ def build_html() -> str:
         else '<div class="cover-mark">RB</div>'
     )
 
+    how_to_raw = strip_internal((CONTENT / "how_to_use.md").read_text(encoding="utf-8"))
+    _, _, how_to_body = parse_article_body(how_to_raw)
+    how_to_html = md_to_html(how_to_body)
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -197,22 +205,7 @@ def build_html() -> str:
 
   <section class="how-to-use">
     <h2>How to Use This Book</h2>
-    <p>This edition serves two audiences at once. You do not have to read it in order — but if you are not sure where to start, use the path that fits you.</p>
-    <div class="audience-grid">
-      <div class="audience-card">
-        <h3>If you are a survivor or peer</h3>
-        <p>Start with <strong>Part I</strong>, especially Article 1 (<em>The Rescue Boat</em>). Read for recognition, not performance. Highlight what names your wiring. Skip what does not fit. Return to Article 10 when setbacks make you think you are back at zero.</p>
-      </div>
-      <div class="audience-card">
-        <h3>If you support or work in systems</h3>
-        <p>Read Article 5 (<em>Translation Between the System and Trauma</em>), then jump to <strong>Part IV</strong> resources. Use the freeze protocol and 26 Laws as translation tools — not excuses, not diagnoses. Part II appendix is there when you need citations.</p>
-      </div>
-    </div>
-    <p><strong>Part I</strong> — Ten counter-narratives (core value)</p>
-    <p><strong>Part II</strong> — Technical appendix (plain-language science)</p>
-    <p><strong>Part III</strong> — Missing pieces (what systems leave out)</p>
-    <p><strong>Part IV</strong> — Practical resources (protocols and heuristics)</p>
-    <p style="color: var(--gold-soft); font-style: italic; margin-top: 1.25rem;">I already paid the tuition. You get the language.</p>
+    <div class="how-to-body">{how_to_html}</div>
   </section>
 
   <section class="toc">
