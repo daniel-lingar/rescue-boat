@@ -1,7 +1,7 @@
 # CANONICAL LOCK — The Rescue Boat (Public Edition)
 
 **Status:** LOCKED  
-**Version:** 1.1.1  
+**Version:** 1.1.2  
 **Locked:** 2026-06-19  
 **Owner:** Daniel Bret Lingar / Capitol Contracts LLC  
 **Repository:** https://github.com/daniel-lingar/rescue-boat  
@@ -59,7 +59,7 @@ Lived examples pull from *From the Storm to the Fire* per:
 - `C:\Users\linga\Documents\Lingar-Archive\02-Storm-Fire-Memoir\CASE_STUDY_INDEX.md`
 - `CASE_STUDY_RULES.md`
 
-Article 1 includes case study footer (CS-01, CS-05, CS-11). Expand footers in future unlocks only.
+All 10 counter-narrative articles include case study footers per `CASE_STUDY_INDEX.md` scene map.
 
 ---
 

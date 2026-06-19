@@ -60,3 +60,17 @@ The storm wired us for danger. The mirror showed me a monster. But the truth? I'
 
 **Missing pieces in this article:**
 * #2 (A "Manual" for the Mechanic)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-10 Two-Minute Therapy · CS-00b Preface Wiring
+Teaches: Shame distorts the mirror — misdiagnosis becomes identity
+Memoir: Part I Preface · Part II Ch 4
+WRH: S00 Intro · S20 Constructed Self
+26 Laws: #6 Broken mirror · #15 Shame is glue
+Field line: "It's not what's wrong with you. It's what happened to you."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: I turned the knife on myself for years. The labels weren't all mine.
+-->

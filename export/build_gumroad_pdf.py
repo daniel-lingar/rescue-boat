@@ -29,7 +29,7 @@ OUT_HTML = EXPORT / "gumroad-preview.html"
 PDF_NAME = "rescue-boat-gumroad-v1.1.1.pdf"
 
 GUMROAD_EDITION = "v1.1.1"
-SOURCE_LOCK = "v1.1.1"
+SOURCE_LOCK = "v1.1.2"
 LOCK_DATE = "2026-06-19"
 
 PART_BRIDGE_HTML = {

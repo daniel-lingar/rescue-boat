@@ -49,3 +49,17 @@ The storm wired us for danger. I wasn't chasing a high – I was chasing normal.
 **Missing pieces in this article:**
 * #6 (Recognition of a Different Baseline)
 * #1 (The "Why" Behind the Addiction)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-05 Hydrocodone Dishes
+Teaches: Normal is the addictive state — relief mistaken for moral victory
+Memoir: Part I Ch 2–3
+WRH: S06 Crash · S09 Loop
+26 Laws: #3 Dangerous shelter · #14 Gas pedal sticks
+Field line: "Normal was the drug."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: I performed normal while my kids watched the mask slip.
+-->

@@ -54,3 +54,17 @@ The storm wired us for danger. I looked for a savior. But what I needed was a st
 
 **Missing pieces in this article:**
 * #4 (Co-Regulation Instead of a Savior)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-27 Connection
+Teaches: Co-regulation vs savior — steady presence, not rescue
+Memoir: Part VI Ch 19
+WRH: S24 Stable Contact
+26 Laws: #23 Need others
+Field line: "I needed a co-regulator, not a savior."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: I reached for rescuers when I needed scaffolds. The wreckage was still real.
+-->

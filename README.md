@@ -2,7 +2,7 @@
 
 A public education and counter-narrative manuscript site exploring trauma, addiction, nervous-system adaptation, shame, freeze responses, and survival patterns in plain language.
 
-## Canonical Lock (v1.1.1)
+## Canonical Lock (v1.1.2)
 
 The **10-article public edition** is locked as of **2026-06-19**. See [`CANONICAL_LOCK.md`](CANONICAL_LOCK.md) and [`LOCK_CHECKSUMS.txt`](LOCK_CHECKSUMS.txt).
 

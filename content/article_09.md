@@ -59,3 +59,17 @@ The storm wired us for danger. I moved to North Dakota. The fire followed. The o
 **Missing pieces in this article:**
 * #7 (The First Wound – The Blueprint)
 * #2 (A "Manual" for the Mechanic)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-14 North Dakota · CS-19 Echoes and Amplifiers
+Teaches: Geographic escape fails — the nervous system follows the storm
+Memoir: Part II Ch 7 · Part III Ch 11
+WRH: S05 Mask · S02 Blueprint
+26 Laws: #5 Work as war · #8 Scan every room
+Field line: "I kept changing scenery but brought the storm with me."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: I couldn't say no. I broke anyway.
+-->

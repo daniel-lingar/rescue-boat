@@ -72,3 +72,17 @@ The following sections contain additional tools and language for supporters and 
 * #2 (A "Manual" for the Mechanic)
 * #3 (Tools to Replace the Substance)
 * #6 (Recognition of a Different Baseline)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-20 60 Reflections · CS-28 Ongoing Path
+Teaches: Healing is spiral — setbacks are data, not moral resets
+Memoir: Part III Ch 12 · Part VI Ch 20
+WRH: S23 Pattern Veto · S26 Accountability
+26 Laws: #22 Spiral recovery · #25 Write next chapter
+Field line: "Recovery isn't straight. It's a spiral with better tools."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: Accountability isn't self-flagellation. It's looking at the wreckage.
+-->

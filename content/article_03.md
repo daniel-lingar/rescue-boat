@@ -57,3 +57,17 @@ The storm wired us for danger. The armor saved me. But now? I'm learning to take
 **Missing pieces in this article:**
 * #2 (A "Manual" for the Mechanic)
 * #4 (Co-Regulation Instead of a Savior)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-09 Closets & Erasure · CS-13 Garrett's Loss
+Teaches: Stoicism as cage — grief blocked, emotions suffocated
+Memoir: Part II Ch 4 · Ch 6
+WRH: S07 Disappearing Act · S06 Crash
+26 Laws: #7 Learned to disappear · #4 What you couldn't mourn haunts you
+Field line: "Grief isn't a wave. It's a tide."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: I didn't wake him. I carry that non-decision every day.
+-->

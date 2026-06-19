@@ -60,3 +60,17 @@ The storm wired us for danger. Shame glued the pieces together. But empathy is t
 
 **Missing pieces in this article:**
 * #2 (A "Manual" for the Mechanic)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-09 Closets & Erasure · CS-16 Trinity Spiral
+Teaches: Shame glues survival behavior — hiding is regulation, not character
+Memoir: Part II Ch 4 · Ch 8
+WRH: S07 Disappearing Act · S05 Mask · S09 Loop
+26 Laws: #7 Learned to disappear · #15 Shame is glue
+Field line: "My presence felt like something to hide."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: I erased myself to keep peace. That wasn't love — it was survival.
+-->

@@ -113,3 +113,17 @@ The storm wired us for danger. Punishment made me freeze harder. The shakes were
 * #2 (A "Manual" for the Mechanic)
 * #3 (Tools to Replace the Substance)
 * #6 (Recognition of a Different Baseline)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-06 System Betrayal · CS-12 Mom Collapse · CS-00 Predictive Model
+Teaches: Freeze is not defiance — systems punish shutdown as noncompliance
+Memoir: Part I Prologue · Part II Ch 5
+WRH: S14 Fight/Flight/Freeze · S29 System Optimization
+26 Laws: #9 Stop when can't fight/run · #11 System that should help hurts again
+Field line: "Punishment didn't wake me up. It shut me down harder."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: Mom was on the floor. I couldn't move. That failure lives in me.
+-->

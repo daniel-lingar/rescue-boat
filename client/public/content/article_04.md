@@ -56,3 +56,17 @@ The storm wired us for danger. I got clean. But getting free? That's a slower fi
 * #3 (Tools to Replace the Substance)
 * #1 (The "Why" Behind the Addiction)
 * #6 (Recognition of a Different Baseline)
+
+---
+
+<!--
+CASE STUDY — From the Storm to the Fire
+Scene: CS-15 Burning in Cold Places
+Teaches: Sobriety without regulation — clean not free, performance until miss cue
+Memoir: Part II Ch 8
+WRH: S06 Crash · S13 Threshold
+26 Laws: #17 Exhaustion warning light
+Field line: "Getting clean gave me a chance. It didn't give me peace."
+Note: Example from author lived experience. Not required disclosure for participants.
+Ownership: People loved the performance until I missed a cue.
+-->
