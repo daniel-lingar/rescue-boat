@@ -3,7 +3,7 @@ export interface Article {
   slug: string;
   title: string;
   subtitle: string;
-  part: "counter-narratives" | "appendix" | "missing-pieces" | "resources";
+  part: "front-matter" | "counter-narratives" | "appendix" | "missing-pieces" | "resources";
   contentFile: string;
   readingTime: number;
   themes: string[];
@@ -11,6 +11,17 @@ export interface Article {
 }
 
 export const ARTICLES: Article[] = [
+  {
+    id: 0,
+    slug: "how-to-use",
+    title: "How to Use This Book",
+    subtitle: "Two paths: survivor/peer or systems/supporter",
+    part: "front-matter",
+    contentFile: "how_to_use.md",
+    readingTime: 3,
+    themes: ["Guide", "Audience", "Navigation"],
+    relatedArticles: [1, 5],
+  },
   {
     id: 1,
     slug: "the-rescue-boat",
@@ -207,6 +218,10 @@ export const ARTICLES: Article[] = [
 ];
 
 export const ARTICLE_PARTS = {
+  "front-matter": {
+    title: "START HERE",
+    description: "How to read this edition for your role",
+  },
   "counter-narratives": {
     title: "PART I: THE COUNTER-NARRATIVES",
     description: "Ten articles challenging the narratives that shame and blame survivors",
@@ -234,7 +249,7 @@ export function getArticleBySlug(slug: string): Article | undefined {
 }
 
 export function getArticlesByPart(
-  part: "counter-narratives" | "appendix" | "missing-pieces" | "resources"
+  part: "front-matter" | "counter-narratives" | "appendix" | "missing-pieces" | "resources"
 ): Article[] {
   return ARTICLES.filter((article) => article.part === part);
 }

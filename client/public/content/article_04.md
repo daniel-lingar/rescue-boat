@@ -1,4 +1,4 @@
-# ARTICLE 4: I GOT CLEAN. I DIDN'T GET FREE
+# I got clean. I didn't get free.
 
 > Sobriety is the starting gate, not the finish line.
 

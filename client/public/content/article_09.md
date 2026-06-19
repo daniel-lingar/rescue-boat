@@ -1,4 +1,4 @@
-# ARTICLE 9: YOU CAN'T OUTRUN YOUR NERVOUS SYSTEM
+# You can't outrun your nervous system
 
 > The fire follows you. You have to face it.
 

@@ -1,4 +1,4 @@
-# ARTICLE 6: NORMAL IS THE MOST ADDICTIVE STATE
+# Normal is the most addictive state
 
 > Addicts chase normal, not highs.
 

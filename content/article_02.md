@@ -1,4 +1,4 @@
-# ARTICLE 2: SHAME IS THE GLUE
+# Shame is the glue
 
 > Shame motivates hiding, not change.
 

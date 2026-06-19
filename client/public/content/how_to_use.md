@@ -1,6 +1,6 @@
-# How to Use This Book
+# How to use this book
 
-This edition serves two audiences at once. You do not have to read it in order — but if you are not sure where to start, use the path that fits you.
+Pick your path — survivor or systems supporter. You do not have to read in order.
 
 ## If you are a survivor or peer
 

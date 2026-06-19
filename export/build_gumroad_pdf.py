@@ -19,25 +19,20 @@ CONTENT = ROOT / "content"
 EXPORT = Path(__file__).resolve().parent
 THEME = EXPORT / "gumroad-theme.css"
 COVER = ROOT / "assets" / "cover.png"
-OUT_DIR = Path(
-    r"C:\Users\linga\Downloads\Books-Organized\10-Trauma-CPTSD-Content"
-)
+OUT_DIRS = [
+    Path(
+        r"C:\Users\linga\Downloads_Organized\02_Writing_Projects\Books\Books-Organized\Books-Organized\10-Trauma-CPTSD-Content"
+    ),
+    Path(r"C:\Users\linga\Downloads\Books-Organized\10-Trauma-CPTSD-Content"),
+]
 OUT_HTML = EXPORT / "gumroad-preview.html"
-OUT_PDF = OUT_DIR / "rescue-boat-gumroad-v1.1.0.pdf"
+PDF_NAME = "rescue-boat-gumroad-v1.1.1.pdf"
 
-GUMROAD_EDITION = "v1.1.0"
-SOURCE_LOCK = "v1.1.0"
+GUMROAD_EDITION = "v1.1.1"
+SOURCE_LOCK = "v1.1.1"
 LOCK_DATE = "2026-06-19"
 
 PART_BRIDGE_HTML = {
-    "Part II — Technical Appendix": """
-<section class="bridge-page">
-  <h2>Before the Appendix</h2>
-  <p>Part I gave you the counter-narratives — language for naming survival patterns without shame.</p>
-  <p>The following sections contain additional tools and language for supporters and systems: science you can cite, reframes systems skip, and protocols you can hand to a peer worker, family member, or court support staff without forcing anyone to disclose trauma.</p>
-  <div class="metaphor-box">The boat was never the enemy. Parts II–IV help you see the storm, name the alarm, and offer other vessels — not by shaming the old one, but by translating what the nervous system is actually doing.</div>
-</section>
-""",
     "Part IV — Resources": """
 <section class="bridge-page">
   <h2>For Supporters and Systems</h2>
@@ -49,6 +44,9 @@ PART_BRIDGE_HTML = {
 }
 
 STRUCTURE = [
+    ("Start Here", [
+        ("how_to_use.md", None, "How to Use This Book", "Two paths: survivor/peer or systems/supporter"),
+    ]),
     ("Part I — Counter-Narratives", [
         ("article_01.md", 1, "The Rescue Boat", "Addiction is survival, not weakness"),
         ("article_02.md", 2, "Shame Is the Glue", "Shame motivates hiding, not change"),
@@ -169,10 +167,6 @@ def build_html() -> str:
         else '<div class="cover-mark">RB</div>'
     )
 
-    how_to_raw = strip_internal((CONTENT / "how_to_use.md").read_text(encoding="utf-8"))
-    _, _, how_to_body = parse_article_body(how_to_raw)
-    how_to_html = md_to_html(how_to_body)
-
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -194,18 +188,13 @@ def build_html() -> str:
   </section>
 
   <section class="front-matter">
-    <h2>Scope Boundary</h2>
+    <h2>Scope boundary</h2>
     <div class="scope-box">
       <p><strong>Non-clinical public education.</strong> This manuscript is psychoeducation and lived-experience translation. It is <strong>not</strong> therapy, medical advice, legal advice, diagnosis, treatment, crisis care, or a substitute for licensed professional support.</p>
       <p>If you or someone you support is in immediate danger, contact local emergency services or a qualified crisis resource in your area.</p>
       <p><strong>This is not the full memoir.</strong> It is a focused counter-narrative edition — ten articles plus tools — drawn from lived experience without requiring disclosure.</p>
     </div>
     <div class="metaphor-box">You don't have to explain your whole storm to use this language. The boat is proof someone wanted to live. The work is finding other tools while the alarm is still loud.</div>
-  </section>
-
-  <section class="how-to-use">
-    <h2>How to Use This Book</h2>
-    <div class="how-to-body">{how_to_html}</div>
   </section>
 
   <section class="toc">
@@ -262,9 +251,14 @@ def main() -> int:
     OUT_HTML.write_text(html, encoding="utf-8")
     print(f"HTML: {OUT_HTML}")
 
-    print_pdf(OUT_HTML, OUT_PDF)
-    size_mb = OUT_PDF.stat().st_size / (1024 * 1024)
-    print(f"PDF:  {OUT_PDF} ({size_mb:.1f} MB)")
+    written: list[Path] = []
+    for out_dir in OUT_DIRS:
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_pdf = out_dir / PDF_NAME
+        print_pdf(OUT_HTML, out_pdf)
+        size_mb = out_pdf.stat().st_size / (1024 * 1024)
+        print(f"PDF:  {out_pdf} ({size_mb:.1f} MB)")
+        written.append(out_pdf)
     return 0
 
 

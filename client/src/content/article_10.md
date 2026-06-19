@@ -1,4 +1,4 @@
-# ARTICLE 10: HEALING IS A SPIRAL
+# Healing is a spiral
 
 > Setbacks are not resets.
 
@@ -60,7 +60,7 @@ The storm wired us for danger. Healing isn't a straight line – it's a spiral. 
 
 ---
 
-## Before You Turn the Page
+## Before you turn the page
 
 The following sections contain additional tools and language for supporters and systems — science you can cite, reframes systems skip, and protocols you can hand to a peer worker, family member, or court support staff without forcing anyone to disclose trauma.
 

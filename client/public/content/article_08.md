@@ -1,4 +1,4 @@
-# ARTICLE 8: I NEEDED A CO-REGULATOR, NOT A SAVIOR
+# I needed a co-regulator, not a savior
 
 > Find a steady presence, not a rescuer.
 

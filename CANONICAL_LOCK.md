@@ -1,7 +1,7 @@
 # CANONICAL LOCK — The Rescue Boat (Public Edition)
 
 **Status:** LOCKED  
-**Version:** 1.1.0  
+**Version:** 1.1.1  
 **Locked:** 2026-06-19  
 **Owner:** Daniel Bret Lingar / Capitol Contracts LLC  
 **Repository:** https://github.com/daniel-lingar/rescue-boat  

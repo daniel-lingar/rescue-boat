@@ -1,4 +1,4 @@
-# ARTICLE 7: THE MIRROR LIES
+# The mirror lies
 
 > Shame distorts everything. Trust the data, not the feeling.
 

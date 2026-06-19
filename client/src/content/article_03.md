@@ -1,4 +1,4 @@
-# ARTICLE 3: STAYING STOIC IS A CAGE
+# Staying stoic is a cage
 
 > Stoicism is suffocation, not strength.
 

@@ -3,8 +3,8 @@
   --bg: #05040a;
   --bg-panel: #11101a;
   --bg-elevated: #1a1726;
-  --text: #faf7ef;
-  --text-muted: #d4cce6;
+  --text: #faf8f2;
+  --text-muted: #e8e2f5;
   --gold: #d8b45f;
   --gold-soft: #f3dda0;
   --purple: #8f5cff;
@@ -14,8 +14,13 @@
 
 @page {
   size: letter;
-  margin: 0.72in 0.8in;
+  margin: 0.72in 0.8in 1.05in;
   background: var(--bg);
+  @bottom-center {
+    content: "The Rescue Boat · v1.1.1 · Capitol Contracts LLC · Page " counter(page);
+    font-size: 8.5pt;
+    color: #e8e2f5;
+  }
 }
 
 * {

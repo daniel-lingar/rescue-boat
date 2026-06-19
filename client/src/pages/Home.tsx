@@ -10,10 +10,10 @@ import {
 export default function Home() {
   const [, setLocation] = useLocation();
   const [expandedPart, setExpandedPart] = useState<string | null>(
-    "counter-narratives"
+    "front-matter"
   );
 
-  const parts = ["counter-narratives", "appendix", "missing-pieces", "resources"] as const;
+  const parts = ["front-matter", "counter-narratives", "appendix", "missing-pieces", "resources"] as const;
 
   return (
     <div className="min-h-screen bg-background">
@@ -50,8 +50,11 @@ export default function Home() {
               <p className="text-xl text-primary-foreground/90 font-serif leading-relaxed mb-6">
                 Ten articles on trauma, addiction, and the nervous system
               </p>
-              <p className="text-base text-primary-foreground/80 font-serif max-w-xl">
+              <p className="text-base text-primary-foreground/80 font-serif max-w-xl mb-3">
                 This is a survival doctrine. It does not offer comfort. It offers translation.
+              </p>
+              <p className="text-sm text-primary-foreground/70 font-serif max-w-xl italic">
+                The rescue boat is not the enemy — it is proof someone wanted to live. This edition names the storm and offers other tools.
               </p>
             </div>
           </div>
@@ -96,8 +99,26 @@ export default function Home() {
       {/* START HERE Section */}
       <section className="py-12 md:py-16 bg-background">
         <div className="container max-w-4xl">
-          <h2 className="text-3xl font-bold mb-8 font-sans text-accent">Start Here</h2>
-          <p className="mb-8 font-serif">Don't read this cover-to-cover unless you want to. Read it by state.</p>
+          <h2 className="text-3xl font-bold mb-4 font-sans text-accent">How to use this edition</h2>
+          <p className="mb-6 font-serif text-muted-foreground">
+            Pick your path — survivor or systems supporter. You do not have to read in order.
+          </p>
+          <div className="grid gap-4 md:grid-cols-2 mb-10">
+            <div className="p-5 bg-card border border-border rounded-lg">
+              <h3 className="font-bold text-accent mb-2">Survivors and peers</h3>
+              <p className="text-sm text-muted-foreground">
+                Start with Article 1 (<em>The Rescue Boat</em>). Read for recognition. Return to Article 10 when setbacks feel like starting over.
+              </p>
+            </div>
+            <div className="p-5 bg-card border border-border rounded-lg">
+              <h3 className="font-bold text-accent mb-2">Supporters and systems</h3>
+              <p className="text-sm text-muted-foreground">
+                Start with Article 5 (Translation), then Part IV resources — freeze protocol, 26 Laws, harm reduction.
+              </p>
+            </div>
+          </div>
+          <h3 className="text-xl font-bold mb-4 font-sans text-accent">Start by state</h3>
+          <p className="mb-8 font-serif text-sm text-muted-foreground">Or jump straight to what matches how you feel right now.</p>
           
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             <button 

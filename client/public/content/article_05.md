@@ -1,4 +1,4 @@
-# ARTICLE 5: TRANSLATION BETWEEN THE SYSTEM AND TRAUMA
+# Translation between the system and trauma
 
 > Missing Piece #5 — Freeze is not defiance. Withdrawal is not weakness. Consequences don't teach — they trigger.
 

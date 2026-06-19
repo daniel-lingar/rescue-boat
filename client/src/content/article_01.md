@@ -1,4 +1,4 @@
-# ARTICLE 1: THE RESCUE BOAT
+# The Rescue Boat
 
 > Addiction is survival, not weakness.
 
