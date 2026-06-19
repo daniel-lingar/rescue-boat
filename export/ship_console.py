@@ -79,6 +79,10 @@ def print_checklist(opp: dict, pdf_path: Path | None) -> None:
     print("  3. Paste title/description from listing_copy file")
     print("  4. Suggested tags: trauma, CPTSD, addiction, shame, freeze response")
     print("  5. Mark opportunity shipped in Hub after publish")
+    print("\nAutomated upload:")
+    print("  set GUMROAD_ACCESS_TOKEN=<token>  (from gumroad.com/settings/advanced)")
+    print("  python export/gumroad_upload.py")
+    print("  Or: python export/gumroad_upload.py --browser  (Edge login; close Edge first)")
     print("=" * 60)
 
 
@@ -89,6 +93,16 @@ def main() -> int:
     parser.add_argument("--skip-pdf", action="store_true")
     parser.add_argument("--skip-hub", action="store_true", help="Skip Hub refresh")
     parser.add_argument("--build-pdf", action="store_true", help="Force PDF rebuild")
+    parser.add_argument(
+        "--upload",
+        action="store_true",
+        help="Attempt Gumroad upload (needs GUMROAD_ACCESS_TOKEN or --browser)",
+    )
+    parser.add_argument(
+        "--browser",
+        action="store_true",
+        help="Use Edge for Gumroad upload (pass to gumroad_upload.py)",
+    )
     args = parser.parse_args()
 
     print("RESCUE BOAT SHIP CONSOLE")
@@ -117,6 +131,13 @@ def main() -> int:
 
     opp = load_gumroad_opportunity()
     pdf_path = find_pdf(opp)
+
+    if args.upload:
+        upload_cmd = [sys.executable, str(EXPORT / "gumroad_upload.py")]
+        if args.browser:
+            upload_cmd.append("--browser")
+        run_step("Gumroad upload", upload_cmd)
+
     print_checklist(opp, pdf_path)
 
     print("\nSHIP CONSOLE: OK")
